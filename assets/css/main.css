@@ -201,12 +201,12 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Raleway", Helvetica, sans-serif;
-		font-weight: 800;
+		font-family: athelas, serif;
+		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
+		/* text-transform: uppercase; */
+		/* letter-spacing: 0.05em; */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -216,7 +216,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.75rem;
-		line-height: 1.3;
+		line-height: 1.5;
 	}
 
 	h2 {
@@ -3348,7 +3348,7 @@ input, select, textarea {
 
 		#wrapper > .main > header {
 			width: 100%;
-			max-width: 35rem;
+			max-width: 35.6rem;
 			text-align: center;
 			margin: 0 auto 3rem auto;
 		}
@@ -3974,6 +3974,7 @@ input, select, textarea {
 		box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.125);
 		cursor: default;
 		z-index: 10000;
+		font-family: proxima-nova, sans-serif;
 	}
 
 		#header a {
@@ -4298,7 +4299,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 			-ms-transition: -ms-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 			transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-			padding: 4.75rem;
+			/* padding: 4.75rem; */
+			padding: 4.75rem 10rem 4.75rem 10rem;
 			width: 100%;
 			text-align: center;
 			position: relative;
@@ -4353,7 +4355,7 @@ input, select, textarea {
 			}
 
 			#banner > .content h1 {
-				font-size: 2.25rem;
+				font-size: 3.25rem;
 			}
 
 			#banner > .content p {
@@ -4440,6 +4442,7 @@ input, select, textarea {
 
 			#banner > .content {
 				margin-top: 0;
+				padding: 4.75rem
 			}
 
 		}
@@ -4451,7 +4454,7 @@ input, select, textarea {
 			}
 
 				#banner > .content h1 {
-					font-size: 1.75rem;
+					font-size: 1.4rem;
 				}
 
 				#banner > .content p {
@@ -4540,6 +4543,7 @@ input, select, textarea {
 		visibility: hidden;
 		width: 20em;
 		z-index: 10002;
+		font-family: proxima-nova, sans-serif;
 	}
 
 		#navPanel nav {
