@@ -220,7 +220,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2.25rem;
+		font-size: 2.2rem;
 		line-height: 1.3;
 	}
 
@@ -3986,6 +3986,10 @@ input, select, textarea {
 			border-bottom: 0;
 		}
 
+		#header img {
+			height: 3.25rem;
+		}
+
 		#header > .logo {
 			position: absolute;
 			left: 1rem;
@@ -4248,12 +4252,16 @@ input, select, textarea {
 						display: none;
 					}
 
+						#header img {
+							height: 44px;
+						}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			#header.alt > .logo {
-				top: 0;
+				top: 1rem;
 				left: 1rem;
 			}
 
