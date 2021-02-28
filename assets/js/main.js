@@ -4,7 +4,8 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
-		$banner = $('#banner');
+		$banner = $('#banner'),
+		$logo = $('#logoImage');
 
 	// Breakpoints.
 		breakpoints({
@@ -62,8 +63,8 @@
 			$banner.scrollex({
 				bottom:		$header.outerHeight(),
 				terminate:	function() { $header.removeClass('alt'); },
-				enter:		function() { $header.addClass('alt'); },
-				leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
+				enter:		function() { $header.addClass('alt'); $logo.attr('src', 'images/avenues-recovery-logo-v1-white.png'); },
+				leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); $logo.attr('src', 'images/avenues-recovery-logo-v1-black.png'); }
 			});
 
 		}
