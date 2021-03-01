@@ -205,8 +205,6 @@ input, select, textarea {
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		/* text-transform: uppercase; */
-		/* letter-spacing: 0.05em; */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3350,9 +3348,11 @@ input, select, textarea {
 
 		#wrapper > .main > header {
 			width: 100%;
-			max-width: 35rem;
+			max-width: 40rem;
 			text-align: left;
 			margin: 0 auto 3rem auto;
+			padding-left: 2rem;
+			padding-right: 2rem;
 		}
 
 			#wrapper > .main > header:before {
@@ -4445,6 +4445,11 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+			#banner > .content {
+				margin-top: 0;
+				padding: 4.75rem
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4459,7 +4464,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner > .content {
-				padding: 1.75rem;
+				padding: 1.75rem 4rem;
 			}
 
 				#banner > .content h1 {

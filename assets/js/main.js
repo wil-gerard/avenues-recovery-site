@@ -69,9 +69,6 @@
 
 		}
 
-		// if ($header.hasClass('reveal')) {
-		// 	document.querySelector('#logoImage').src = "images/avenues-recovery-logo-v1-black.png"
-		// }
 	// Banner.
 
 		// Hack: Fix flex min-height on IE.
