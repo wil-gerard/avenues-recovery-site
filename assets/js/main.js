@@ -63,8 +63,8 @@
 			$banner.scrollex({
 				bottom:		$header.outerHeight(),
 				terminate:	function() { $header.removeClass('alt'); },
-				enter:		function() { $header.addClass('alt'); $logo.attr('src', 'images/avenues-recovery-logo-v1-white.png'); },
-				leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); $logo.attr('src', 'images/avenues-recovery-logo-v1-black.png'); }
+				enter:		function() { $header.addClass('alt'); $logo.attr('src', 'images/avenues-recovery-logo-v2-white.png'); },
+				leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); $logo.attr('src', 'images/avenues-recovery-logo-v2-black.png'); }
 			});
 
 		}
