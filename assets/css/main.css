@@ -3845,7 +3845,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .main.alt {
-			background-image: url("../../images/cairn2-edit.jpg");
+			background-image: url("../../images/bg-edited.jpg");
 			background-size: cover;
 			background-repeat: repeat;
 			background-attachment: fixed;
