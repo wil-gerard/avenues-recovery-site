@@ -68,7 +68,7 @@
 				<!-- Section -->
 					<section class="main alt" id="first">
 						<!-- <header>
-							<h2>Welcome to Avenues Recovery Center</h2>
+							<h2>Welcome to Avenues Recovery</h2>
 							<p>Located in St. Paul Minnesota, Avenues Recovery Center is a DHS licensed outpatient and co-occuring disorders clinic. Our treatment starts by understanding you, your health, and your life to deliver care that's right for you. We are here to support you wherever you are at in your recovery journey.</p>
 						</header> -->
 						<div class="inner">
@@ -139,18 +139,23 @@
 						<h2>Contact us</h2>
 						<p>Call us today or fill out our contact form, and we will get back to you shortly.</p>
 						<a href="tel:651-702-2639" class="icon solid fa-phone button">651-702-2639</a>
-
 					</header>
 					<div class="inner narrow style2">
 						<h3>How can we help?</h3>
 						<p> We provide Rule 25 and Comprehensive Substance Use Assessments, available by appointment or walk-ins are welcome Monday-Friday 9:00 am to 2:00 pm. Currently, we are in network with Blue Cross Blue Shield of Minnesota, UCare, Hennepin Health and CCDTF/Direct Access funding sources.</p>
-						<form action="#" method="post">
+						<form name="contact_form" method="POST" action="https://formspree.io/xpzlwaqw">
 							<div class="fields">
 								<div class="field half">
-									<input name="name" id="name" placeholder="Name" type="text" />
+									<input type="text" name="form_name" required="" value="" placeholder="Name" />
 								</div>
 								<div class="field half">
-									<input name="email" id="email" placeholder="Email" type="email" />
+									<input type="text" name="form_subject" required="" value="" placeholder="Subject" />
+								</div>
+								<div class="field half">
+									<input type="email" name="form_email" required="" value="" placeholder="Email" />
+								</div>
+								<div class="field half">
+									<input type="text" name="form_phone" required="" value="" placeholder="Phone number" />
 								</div>
 
 								<!-- <div class="field">
@@ -179,7 +184,7 @@
 						<ul class="icons">
 							<li><a href="tel:651-702-2639" class="icon solid fa-phone"></a></li>
 							<li><a href="mailto:info@avenuesrecovery.org" class="icon solid fa-envelope"></a></li>
-							<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.facebook.com/Avenues-LLC-1580418382220181/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 						</ul>
 						<p class="copyright">&copy; 2021 Avenues Recovery. All rights reserved.</p>
