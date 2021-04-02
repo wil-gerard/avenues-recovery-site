@@ -195,7 +195,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: athelas, serif;
+		font-family: Athelas, serif;
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -243,7 +243,7 @@ input, select, textarea {
 		}
 
 		h3 {
-			font-size: 1rem;
+			font-size: 1.4rem;
 		}
 
 		h4 {
@@ -356,6 +356,18 @@ input, select, textarea {
 	hr {
 		border-bottom-color: rgba(143, 143, 143, 0.25);
 	}
+
+/* Proxima Type Additions*/
+
+	header p,
+	footer p,
+	li.icon,
+	form input,
+	textarea,
+	#proxima {
+		font-family: proxima-nova;
+	}
+
 
 /* Row */
 
